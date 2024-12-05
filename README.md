@@ -23,10 +23,7 @@
 
 ## Runtime Analysis
 - Initialization: O(V)
-- Edge Relaxation:
-    - The outer loop runs V - 1 times
-    - Each iteration processes all E edges
-    - Time complexity: O(V * E)
+- Edge Relaxation: O(V * E)
 - Negative Cycle Detection: O(E)
 - Total Time Complexity: O(V * E)
 - With up to 10,000 vertices and 50,000 edges, the algorithm's time complexity becomes O(10,000 * 50,000) = O(5 × 10^8)
